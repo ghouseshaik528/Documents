@@ -1,0 +1,71 @@
+								====================================
+								Jenkins Installation in Redhat Linux
+								====================================
+Note: First of all, launch an Aws instance and connect using putty or Mobaexterm.
+Also, along with ssh port 22, enable custom tcp port 8080 in security group while creating aws instance. 
+
+Inside the terminal, execute the following commands :
+-----------------------------------------------------
+Note: In-order to use jenkins, we need to have Java in our system (i.e. aws instance)
+
+// Java Installation
+yum install java-1.8*       (yum command will be only for redhat server)
+
+java -version
+find / -name jre              # Copy the java path and paste in the .bash_profile
+ls -la
+
+// Setting the Java Path
+vi .bash_profile
+JAVA_Home=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64/jre
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$JAVA_HOME
+
+Save and Quit from the vi editor.
+
+echo $PATH   
+/sbin:/bin:/usr/sbin:/usr/bin
+// Installing Jenkins
+Note: Go to jenkins.io >> Downloads >> Choose Redhat OS >> Go through the documentation:
+ Go to https://pkg.jenkins.io/redhat-stable/
+ 
+ yum install wget -y     # we need to install "wget" explicitly
+ 
+ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+ 
+ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+ 
+ yum install jenkins
+ 
+ service jenkins status    # To check whether the jenkins is active or not (by default, jenkins will be in-active)
+ 
+ service jenkins start     # Starting the jenkins service
+ 
+ chkconfig jenkins on      # Whenever we stop and start the server, there are chances of not starting the jenkins
+                             To overcome this issue, we need to give this command.  
+ 
+ Next, go to Jenkins Server and copy the public ip. Then open any browser and enter in the url as below:
+    Ex: http://13.233.50.130:8080/
+	
+Note: If we install Jenkins successfully then jenkins will start loading... 
+ 
+ Jenkins page will open:  Initially, it will ask to enter the jenkins password.
+ For this, 
+ Go to terminal and check the passwd from the below path
+ /var/lib/jenkins/secrets/initialAdminPassword
+ 
+ cat /var/lib/jenkins/secrets/initialAdminPassword    # We can see the admin password
+ copy the password and go to jenkins home page paste the password.
+ 
+ Note: After giving the password, system will ask to choose the plugins or install suggested plugins.
+ But it is recommended to skip this step and directly click on "Start Jenkins"
+
+ Welcome to Jenkins   # We will get the Jenkins Home Page / Dashboard
+ 
+ Note: It is always recommended to change the Jenkins password. For this follow the below path:
+       Go to Admin >>>> Choose configure & Change the password 
+Next, 
+ Logout and Login with new password
+ 
+ username :Admin
+ Password :.......
+ ===============================================================================================================
