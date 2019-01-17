@@ -1,0 +1,60 @@
+Can you tell me few major tasks/activities done in AWS ?
+1. Can you explain Private Cloud, Public cloud & Hybrid Cloud ?
+2. How will you login to the private subnet instances ?
+3. Can you tell the differences between network ACl & Security group ?
+4. How will you monitor the ec2 instances ?
+5. Can you explain what is Role based access & Policy based access ?
+6. Can you Modify the policies of the role attached to the EC2 ?
+7. How will you encrypt the root ebs volume ?
+8. Can I delete the custom AMI once the Instance Launched using that AMI ?
+9. What is Latency Based routing in route 53 ?
+10. What troubleshooting activities done in AWS so far ?
+11. what is 1/2 state of EC2 ?
+12. EC2 not able to uload 10GB file, What could be the issue ?
+13. What is your job role in AWS ?
+14. Can You stop the eC2 instance which is in Auto Scaling group ?
+15. Can you explain difference between Application ELB & clasic ELB ?
+16. Can we create A record for the ELB ?
+17. What is MFA delete option is S3 ?
+18. Can I have upload 50Gb single object to S3 bucket ?
+19. How many Security Groups I can attache to single EC2 ?
+20. EC2 server experiencing slow internet connection, Can I add multiple 'InternetGateWay' to the VPC
+to increase the speed?
+21. Can we create Multiple subnets in VPC ?
+22. How will you login to the Windows host hosted on private subnet ?
+23. Can I have Private subnet instances accessin the internet through InternetGateWay ?
+24. How will you expiry Edge Locations cache data manually ?
+25. What are the EC2 provisioning tools using to launch the instances ?
+26. How will you monitor Memory utilization from Cloud watch ?
+27. How will you modify Launch Configuration when the Instances are already running in Auto
+Scaling ?
+28. have you ever done database backup & restore ?
+29. How will you automate the EC2 snapshots ?
+30. What is the negative point in NAT Gatewaty ?
+31. How will you identify the subnet is public or private ?
+32. How will you resize the EBS root volume ? 
+33. Clients cannot connect to my load balancer and sometimes receive an HTTP: 503 Service Unavailable
+or HTTP: 504 Gateway Timeout error message.
+34. Amazon EC2 instance is no longer responding, How will you fix ?
+35. EC2 server throwing out of memory errors, How will you fix this issues ?
+36. Do you know what is system log in AWS ?
+37. What is Cloud watch Events ?
+38. How will you store cloudtrail logs to S3 bucket ?
+39. How will you monitor disk and file system usage using Cloud Watch ?
+40. Can I authnticate the EC2 with out using KeyPair ?
+41. All objects uploaded to the S3 bucket should be public by default , How do you confiure it ?
+42. Can you explain the 3-tier architecture with high availability in each layer ?
+43. Can I create ELB for the bastion hosts ?
+44. What is vpn in AWS ?
+45. What is storage gateway ?
+46. Did you ever logged Case with Amazon ?
+47. Where will you store ec2 snapshots ?
+48: what is awslogs agent ?
+49. Did you ever configured cloud watch metric ?
+50. How will you monitor Memory Utilization of EC2 instance using Cloud Watch ?
+51. What is Life Cycle Hook in Auto Scaling ?
+52. Can you tell me where you have used Cloud Formation Template ?
+53. Instance is showing 1/2 state, How will you trouble shoot the issues.
+54. Have you ever worked on Capacity Planning ?
+55. Explain me Diaster Recovery Planning for Region Failures in AWS ?
+56. Difference between ALB and CLB ?
