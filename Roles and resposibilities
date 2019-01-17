@@ -1,0 +1,44 @@
+Git roles and resposibilities
+-------------------------------------
+
+create the repositories 
+giving permissions to users to access repositoy
+creating and managing the branches and providing permission to the developer to accesing the repository.
+merging the branches 
+resolving merge conflict errors 
+
+Jenkins roles and resposibilities
+---------------------------------------
+
+managing and maintain the jenkins to implemengt the  CI process.
+and integrated with tool like git, maven,sonarqube, tomcat 
+and also implemented automated deployement container to war plugin. 
+configure the sonarqube for code analsys
+Job schedule,  poll SCM, Build periodically, webhook job, upstrea&down stream
+dependency jobs create 
+pipeline jobs create
+check the job build error
+configuring Node management 
+configure the jobs run in other nodes.
+types of job
+	maven based job
+	deployment jobs
+	dependency jobs
+	pipeline view
+	code analysis job(soanr)
+Installing the plugins dependence on requirement
+
+Ansible roles and responsibilities 
+
+1. software installation and configurations
+2. creating users and groups and files,folders
+3. deploy VMs on public cloud
+4. deploy VMs on private cloud
+5. provision storage to all VMs
+6. Setup network configuration on private VMs
+7. Setup Cluster Configuration
+8. Configure webserver on public VMs
+9. Configure DBServer on private VMs
+10. Setup load balancing between web server and VMs
+11. Setup Monitoring Components
+12. Install and configure backuo clients on VM
