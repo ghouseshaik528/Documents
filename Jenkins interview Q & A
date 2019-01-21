@@ -1,0 +1,39 @@
+Jenkins interview questions?
+
+Q. Explain how can you installed plugins ?5) How can you do security management in Jenkins ?
+Q. Is Jenkins a standlaonce or master-slave ?
+Q. are you created any pipeline jobs ?
+Q. How can you install customized plugin in jenkins ?
+Q. How can you change jenkins port numner ?
+Q. Can you perform any pre-build actions ?
+Q. Have you created Maser and slave configuration in jenkins ?
+Q. I see You ave configured Jenkins with Artifactory repository, How are you making 	configuration in maven folder ?
+Q. How can you create and configure Job ?
+Q. Why you choose Free-style Job, Why Can't you for other One ?
+Q. How will you create Job in Jenkins ?
+Q. What is the defference bwtween Continuous Delovery and continuos deployment ?
+Q. Which format Jenkins daa Saved ?
+Q. what is the use of master and slave in jenkins ?
+Q. In my company one new joinee had done something misteakes, so not able to login how to 	recovery ?
+Q. How to give the access for a particular project to particular user ?
+Q. Is it possiable to change the repo URL in jenkins ?
+Q. Are you taking care for any pom.xml changes for pom.xml ?
+Q. How do you enable git pull request analysis in jenkins ?
+Q. what is the build trigger here ?
+Q. here i dont want poll SCM here ?
+Q. Have you configure the jenkins automation backup ?
+Q. In Jenkins what are modules these available plugins will be available if you want to 	Declare 
+Q. On it tomcat plugin which use in Jenkins ?
+Q. In Jenkins i have 100 Jobs, each job having 20 Builds, but i need to save only 3 builds for 
+	partickar job how can you do ?
+Q. For the above scenarion how can you configure jenkins need to save only 3 biulds for all 		100 Jobs in single shot ?
+Q. what is poll sCM ?
+Q. Some plugins in jenkins ?
+Q. What is pipeline ?
+Q. Can we have more that one master in jenkins ?
+Q. What are the Launch methods in while creating slaves ?
+Q. How to run multiple jobs at a time ?
+Q. How to get notification if scheduled build is failed ?
+Q. What is clean install Deploy ?
+Q. How to intergrate jenkins with SonarQube ?
+Q. Why we need extra nodes in jenkins ? jenkins backup ? jenkins pipeline ?
